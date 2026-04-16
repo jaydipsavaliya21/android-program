@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+            android:text="1 Install Android Studio"
+            android:onClick="openScreen"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="2 First Android App"
+            android:onClick="openScreen"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:text="3 Hello World UI"
+            android:onClick="openScreen"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/btn4"
+            android:text="4 Textbox Toast App"
+            android:onClick="openScreen"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/btn5"
+            android:text="5 Activity Lifecycle"
+            android:onClick="openScreen"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button android:id="@+id/btn6" android:text="6 Program" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn7" android:text="7 Program" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn8" android:text="8 Program" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn9" android:text="9 Program" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn10" android:text="10 Program" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+
+        <Button android:id="@+id/btn11" android:text="11 ToggleButton" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn12" android:text="12 ImageButton" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn13" android:text="13 ListView" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn14" android:text="14 Spinner" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn15" android:text="15 CheckBox" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+
+        <Button android:id="@+id/btn16" android:text="16 RadioButton" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn17" android:text="17 RadioGroup" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn18" android:text="18 ImageView" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn19" android:text="19 TextView, EditText, Button" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn20" android:text="20 RatingBar" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+
+        <Button android:id="@+id/btn21" android:text="21 AutoCompleteTextView" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn22" android:text="22 MultiAutoCompleteTextView" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn23" android:text="23 DatePicker" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn24" android:text="24 TimePicker" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn25" android:text="25 ProgressBar" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+
+        <Button android:id="@+id/btn26" android:text="26 AnalogClock" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn27" android:text="27 DigitalClock" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn28" android:text="28 RecyclerView" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn29" android:text="29 Context Menu" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn30" android:text="30 Tween Animation" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+
+        <Button android:id="@+id/btn31" android:text="31 RelativeLayout" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn32" android:text="32 TableLayout" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn33" android:text="33 Show URL" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn34" android:text="34 AbsoluteLayout" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn35" android:text="35 Change Theme" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+
+        <Button android:id="@+id/btn36" android:text="36 Frame Animation" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn37" android:text="37 WebView" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn38" android:text="38 ActionBar" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn39" android:text="39 System Alarm" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn40" android:text="40 Send SMS" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+
+        <Button android:id="@+id/btn41" android:text="41 CameraCapture" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn42" android:text="42 Service Demo" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn43" android:text="43 AudioManager" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn44" android:text="44 AlertDialog" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn45" android:text="45 Contacts Dialer" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+
+        <Button android:id="@+id/btn46" android:text="46 SharedPreferences" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn47" android:text="47 Internal Storage" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn48" android:text="48 External Storage" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn49" android:text="49 Interest Calc" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn50" android:text="50 VideoView" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        
+        <Button android:id="@+id/btn51" android:text="51 Location Services" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn52" android:text="52 Sensors" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn53" android:text="53 JSON Parsing" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+        <Button android:id="@+id/btn54" android:text="54 Database App" android:onClick="openScreen" android:layout_width="match_parent" android:layout_height="60dp"/>
+
+    </LinearLayout>
+</ScrollView>

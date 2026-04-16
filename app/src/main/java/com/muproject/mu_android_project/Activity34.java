@@ -1,0 +1,14 @@
+package com.muproject.mu_android_project;
+
+import android.os.Bundle;
+import androidx.appcompat.app.AppCompatActivity;
+
+@SuppressWarnings("deprecation")
+public class Activity34 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_34);
+    }
+}

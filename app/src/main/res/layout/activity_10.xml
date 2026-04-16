@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Program 10 : Simple Calculator"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/num1"
+        android:hint="Enter number 1"
+        android:inputType="numberDecimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/num2"
+        android:hint="Enter number 2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:text="Result"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button android:text="Add" android:onClick="add" android:layout_width="match_parent" android:layout_height="60dp"/>
+    <Button android:text="Subtract" android:onClick="sub" android:layout_width="match_parent" android:layout_height="60dp"/>
+    <Button android:text="Multiply" android:onClick="mul" android:layout_width="match_parent" android:layout_height="60dp"/>
+    <Button android:text="Divide" android:onClick="div" android:layout_width="match_parent" android:layout_height="60dp"/>
+    <Button android:text="Mod" android:onClick="mod" android:layout_width="match_parent" android:layout_height="60dp"/>
+    <Button android:text="Clear" android:onClick="clear" android:layout_width="match_parent" android:layout_height="60dp"/>
+
+</LinearLayout>

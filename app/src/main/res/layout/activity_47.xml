@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Internal Storage Demo"
+        android:textSize="20sp"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etInternalData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Data to Save" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btnSaveInternal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Internal"
+            android:layout_marginEnd="16dp"/>
+
+        <Button
+            android:id="@+id/btnLoadInternal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Load Internal" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvInternalData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loaded Data:"
+        android:layout_marginTop="32dp"
+        android:textSize="18sp"/>
+
+</LinearLayout>
